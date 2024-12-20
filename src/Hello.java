@@ -23,5 +23,11 @@ public class Hello {
         }
 
         //this is from feature/issue-1 branch
+
+        //This section is to reverse the string using java built in method
+        String myString = "This is a string";
+        StringBuilder stringBuilder = new StringBuilder(myString);
+        System.out.println(stringBuilder.reverse());
+
     }
 }
