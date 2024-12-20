@@ -22,8 +22,6 @@ public class Hello {
             System.out.println("D");
         }
 
-        //this is from feature/issue-1 branch
-
         //This section is to reverse the string using java built in method
         String myString = "This is a string";
         StringBuilder stringBuilder = new StringBuilder(myString);
@@ -33,6 +31,9 @@ public class Hello {
         System.out.println("This is from feature branch");
 
         System.out.println("this is from main branch");
+
+        //This is from feature/issue-4 branch
+        String name[] ={"Hilton", "Milton", "Liton", "Choton", "Sarah", "Ashley"};
 
     }
 }
