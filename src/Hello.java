@@ -32,8 +32,12 @@ public class Hello {
 
         System.out.println("this is from main branch");
 
+
         //This is from feature/issue-4 branch
-        String name[] ={"Hilton", "Milton", "Liton", "Choton", "Sarah", "Ashley"};
+        String myName[] ={"Hilton", "Milton", "Liton", "Choton", "Sarah", "Ashley"};
+
+        //adding name array and looping the array in main branch
+        String name[] = {"Hello", "world"};
 
     }
 }
