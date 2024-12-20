@@ -34,5 +34,7 @@ public class Hello {
 
         System.out.println("this is from main branch");
 
+        //adding name array and looping the array in main branch
+        String name[] = {"Hello", "world"};
     }
 }
